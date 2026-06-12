@@ -50,6 +50,9 @@ export default function MatchesPage() {
             <Link href="/matches" className="text-emerald-400">
               Matches
             </Link>
+            <Link href="/standings" className="hover:text-white">
+            Standings
+            </Link>
           </nav>
         </div>
       </header>

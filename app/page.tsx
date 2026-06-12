@@ -50,7 +50,7 @@ export default function Home() {
             <a className="hover:text-white" href="/matches">
               Matches
             </a>
-            <a className="hover:text-white" href="#">
+            <a className="hover:text-white" href="/standings">
               Standings
             </a>
             <a className="hover:text-white" href="#">
