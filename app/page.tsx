@@ -47,7 +47,7 @@ export default function Home() {
             <a className="text-white" href="#">
               Home
             </a>
-            <a className="hover:text-white" href="#">
+            <a className="hover:text-white" href="/matches">
               Matches
             </a>
             <a className="hover:text-white" href="#">
@@ -138,9 +138,12 @@ export default function Home() {
               <p className="text-sm text-slate-400">Friday, June 12</p>
             </div>
 
-            <button className="text-sm font-medium text-emerald-400 hover:text-emerald-300">
+            <a
+              href="/matches"
+              className="text-sm font-medium text-emerald-400 hover:text-emerald-300"
+            >
               View all →
-            </button>
+            </a>
           </div>
 
           <div className="grid gap-4">
