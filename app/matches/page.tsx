@@ -53,6 +53,9 @@ export default function MatchesPage() {
             <Link href="/standings" className="hover:text-white">
             Standings
             </Link>
+            <Link href="/bracket" className="hover:text-white">
+            Bracket
+            </Link>
           </nav>
         </div>
       </header>

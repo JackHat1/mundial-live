@@ -138,6 +138,9 @@ export default function StandingsPage() {
             <Link href="/standings" className="text-emerald-400">
               Standings
             </Link>
+            <Link href="/bracket" className="hover:text-white">
+              Bracket
+            </Link>
           </nav>
         </div>
       </header>
