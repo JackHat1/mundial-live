@@ -94,11 +94,13 @@ export default function MatchesPage() {
         </div>
 
         <div className="grid gap-4">
-          {matches.map((match) => (
-            <article
-              key={match.id}
-              className="rounded-2xl border border-white/10 bg-white/[0.04] p-5 transition hover:border-emerald-400/40 hover:bg-white/[0.07]"
-            >
+{matches.map((match) => (
+  <Link
+    key={match.id}
+    href={`/matches/${match.id}`}
+    className="block"
+  >
+    <article className="rounded-2xl border border-white/10 bg-white/[0.04] p-5 transition hover:-translate-y-0.5 hover:border-emerald-400/40 hover:bg-white/[0.07]">
               <div className="mb-4 flex items-center justify-between text-xs text-slate-400">
                 <span>{match.group}</span>
                 <span>{match.status}</span>
@@ -126,7 +128,8 @@ export default function MatchesPage() {
                 </div>
               </div>
             </article>
-          ))}
+        </Link>
+        ))}
         </div>
       </section>
     </main>
